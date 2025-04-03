@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/general.css">
+  </head>
+  <body>
+
+        <div class="location"> <h2 id="motto">DUC IN ALTUM</h2></div>
+
+        <div class="header">
+         <img src="images/smacklogo .png" alt="SMACK logo">
+         <div class="schoolname">
+            <h1 class="a"> ST.MARY'S </h1>
+            <h1 class="b">COLLEGE KISUBI</h1>
+          </div>
+          <div class="menu">
+              <p class="options"><a href="index.html">HOME</a></p>
+              <p class="options"><a href="aboutus.html">ABOUT US</a></p>
+              <p class="options"><a href="academics.html">ACADEMICS</a> </p>
+              <p class="options"><a href="news.html">NEWS & EVENTS<a></p>
+              <p class="options"><a href="gallery.html">GALLERY</a></p>
+              <p class="options"><a href="contact.html">CONTACT US</a></p>
+          </div>
+        </div>
+        <div class="nel">
+          <section class="academics">
+              <h2>ACADEMICS</h2>
+              <p>SMACK has an academics department led by experienced professionals in the field of education.</p>
+
+              <div  id="no" class="slider">
+
+                  <div class="slides">
+                      <div class="move">
+                          <img src="images/drrobertoluka.jpg" alt="Dr. Robert Oluka">
+                          <h3>DR. ROBERT OLUKA (PhD)</h3>
+                          <p>Deputy Headteacher (Academics)</p>
+                      </div>
+                      <div class="move">
+                          <img src="images/mrtonny.jpg" alt="Mr. Tonny Ogwang">
+                          <h3>MR. TONNY OGWANG</h3>
+                          <p>Director of Studies (DOS)</p>
+                      </div>
+                      <div class="move">
+                          <img src="images/bromaryfrancis.jpg" alt="Bro. Mary Francis Kigundu">
+                          <h3>BRO. MARY FRANCIS KIGGUNDU</h3>
+                          <p>Deputy Headteacher (Welfare)</p>
+                      </div>
+                      <div class="move">
+                          <img src="images/brosimeon.jpg" alt="Bro. Simeon Simon Mpanga">
+                          <h3>BRO. SIMEON SIMON MPANGA</h3>
+                          <p>Headteacher</p>
+                      </div>
+                      <div class="move">
+                          <img src="images/mrsalimu.jpg" alt="Mr. Salimu Zirimu">
+                          <h3>MR. SALIMU ZIRIMU</h3>
+                          <p>Asst. Director Of Studies</p>
+                      </div>
+                  </div>
+                  <button class="ext" onclick="next();">&#10095;</button>
+                  <button class="rev" onclick="prev();">&#10094;</button>
+              </div>
+          </section>
+
+          <section class="accordion">
+              <h2>Offered Subjects</h2>
+
+              <button  class="accordion-btn" onclick="showorhide()">SCIENCES</button>
+              <div id="sciences" class="accordion-content">
+                  <p>Sciences includes Physics, Chemistry, Biology, Mathematics, Technical Drawing, Art.</p>
+              </div>
+
+              <button  class="accordion-btn" onclick="showOrhide()"  >ARTS</button>
+              <div id="arts" class="accordion-content" >
+                  <p>Arts include History, CRE, Geography, Literature, Economics, Entreprenuership.</p>
+              </div>
+          </section>
+
+          <section>
+              <h2>Subject Teachers</h2>
+              <table id="subjectTable">
+                  <thead>
+                      <tr>
+                          <th>Subject</th>
+                          <th>Teacher</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Sciences</td>
+                          <td>Mr. John Smith</td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> Ms. Sarah Johnson</td>
+                      </tr>
+                      <tr>
+                          <td>Arts</td>
+                          <td> Mr. David Brown</td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> Ms. Emily White</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </section>
+
+        </div>
+        <footer>
+
+            <img src="images/smacklogo .png" alt="SMACK logo">
+            <div class="float">
+              <h1>Contact us</h1>
+           <div>  <img class="go" src="images/phone.png" alt="phone"> <p class="d">(+256) 414321085</p></div>
+           <div>  <a href="mailto:into@smack.sc.ug.com"><img  class="go" src="images/mail.png" alt="email"> <p class="d">info@smack.sc.ug</p></a></div>
+           <div>  <img class="go" src="images/telephone.png" alt="landline"><p class="d">0414321418</p></div>
+           <div >  <a href="https://twitter.com/Smackists"><img class="go" src="images/twitter.png" alt="twitter"></a><a href="https://instagram.com/smackist"><img id="space" class="go" src="images/instagram.png" alt="instagram"></a></div>
+
+            </div>
+            <div class="floats">
+              <div id="left"> <img class="go" src="images/location.png" alt="location"><p class="d">Location</p> </div>
+              <div > <img src="images/here.png" alt="map" class="map"> </div>
+
+            </div>
+
+
+
+           </footer>
+
+       <script src="scripts/event.js" charset="utf-8"></script>
+       <script src="scripts/academics.js" charset="utf-8"></script>
+
+  </body>
+</html>
