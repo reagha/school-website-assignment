@@ -11,8 +11,8 @@
   --yel-col:#0056b3;
   --whi-coo:#e0e6f1;
   --bla-col:black;
-  --tin-col:rgba(0, 0, 0, .09); 
-  --bod-col:#121826; 
+  --tin-col:rgba(0, 0, 0, .09);
+  --bod-col:#121826;
 }
 .dl{
   height: 50px;
@@ -295,7 +295,7 @@ footer{
 }
 .bod{
   width:100%;
-  height:1500px;
+  height:1112.5px;
   position:relative;
   top:140px;
 }
@@ -332,12 +332,6 @@ footer{
 .about-col p{
     padding: 15px 0 25px;
 }
-.values{
-    background-position: center;
-    background-size: cover;
-    text-align: left;
-    top: 1px;
-}
 .rows{
     margin-top: 5%;
     display: flex;
@@ -364,8 +358,9 @@ h3{
 }
 .j{
   text-align: center;
-  font-size:50px;
+  font-size:40px;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .d{
@@ -513,3 +508,92 @@ th {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.values{
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    align-items: center;
+    background: whitesmoke;
+}
+.card{
+    height: 300px;
+    margin: 45px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.intro{
+    height: 100px;
+    width: 292px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(255, 215, 0,0.8);
+    color: white;
+    transition: 0.5s;
+    bottom: 205px;
+
+}
+.container{
+    display: flex;
+}
+  .ly{
+    height: 300px;
+    width:300px ;
+    border-radius: 3px;
+
+  }
+  .kb{
+
+     font-weight: 600;
+     margin: 20px;
+
+
+ }
+ .nd{
+     font-weight: 600px;
+     font-size: 15px;
+     margin: 20px;
+     visibility: hidden;
+     opacity: 0;
+
+ }
+ .card:hover{
+     cursor: pointer;
+ }
+ .card:hover .intro{
+     height: 200px;
+     bottom: 200px;
+     background: #FFD700;
+
+ }
+ .card:hover .nd{
+     opacity: 1;
+     visibility: visible;
+
+ }
+ .card:hover .ly{
+     transform: scale(1.1) rotate(-1deg);
+ }
+.link{
+  border 1px solid yellow;
+  background: transparent;
+  color: yellow;
+
+}
+.link:hover{
+  color: white;
+}
+.about-us{
+  width:80%
+  margin:auto;
+  padding-top 80px;
+  padding-bottom: 50px;
+
+}
+.about-col{
+
+  flex-basis: 48%;
+  padding: 30px 2px;
+
+}
+
